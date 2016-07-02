@@ -1,0 +1,6 @@
+framework module XMExpandableTableView {
+  umbrella header "XMExpandableTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

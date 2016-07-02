@@ -1,0 +1,16 @@
+PODS:
+  - XMExpandableTableView (0.1.0)
+
+DEPENDENCIES:
+  - XMExpandableTableView (from `../`)
+
+EXTERNAL SOURCES:
+  XMExpandableTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMExpandableTableView: 973398cb4ace84ad57cd71a5a236e94659d26867
+
+PODFILE CHECKSUM: 6161a7e2e7d8ee2f880348f4d142e53e3c7f86f2
+
+COCOAPODS: 1.0.1
