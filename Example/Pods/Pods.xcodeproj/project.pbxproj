@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2064B4FAA0DDF5A005330E16482B8662 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C259E5A0A6A349F94B6689AEC37FEE /* ReplaceMe.swift */; };
 		3383FB56E983DCDCDA52D69521AA4B62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		3BABF50EDC5C4BE888C34BC8740D1D65 /* XMExpandableTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E1CDDEC0BFD3965C55ACC8301AA91 /* XMExpandableTableView-dummy.m */; };
 		4DBBED1C4853BCED261C10EC6BD89E3D /* XMExpandableTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5818B9693F493CAD26434F9E87ADDFB7 /* XMExpandableTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51865D02FA624A9F1F36F1B49974C76A /* XMExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F00DA7B8690BFF55BBD99383EF5A5A /* XMExpandableTableView.swift */; };
 		539D2A32071AFED8D40365796BE0103F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5ACB5454C57457ED2DA12331C07DE3FD /* XMExpandableTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E1CDDEC0BFD3965C55ACC8301AA91 /* XMExpandableTableView-dummy.m */; };
 		5BCCC024CD9B4255EBAA8D0A70E3DEE8 /* Pods-XMExpandableTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA624DDC93F57517F1327363931BBA1 /* Pods-XMExpandableTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E75BF9CF968542B871B15F7299A960D /* Pods-XMExpandableTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A54AB042B037E1468E55B353B30F0B6 /* Pods-XMExpandableTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C97073A55E5E046116FDF999E281A1A9 /* Pods-XMExpandableTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F776A115411537B8C1E240913A429D /* Pods-XMExpandableTableView_Tests-dummy.m */; };
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F00DA7B8690BFF55BBD99383EF5A5A /* XMExpandableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMExpandableTableView.swift; sourceTree = "<group>"; };
 		02FCD73F8A32E6C30AD8935D55558FF2 /* Pods-XMExpandableTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMExpandableTableView_Example-resources.sh"; sourceTree = "<group>"; };
 		0B433C459F12B2C0328494086E5459E1 /* Pods-XMExpandableTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMExpandableTableView_Tests-resources.sh"; sourceTree = "<group>"; };
 		0EBFE11FF343698EBF35348BC77A5030 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		5818B9693F493CAD26434F9E87ADDFB7 /* XMExpandableTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMExpandableTableView-umbrella.h"; sourceTree = "<group>"; };
 		5D65201E5F541B3EA33DE35AD34A295F /* Pods-XMExpandableTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMExpandableTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		608D56E06DA2E929331A7A155D061621 /* Pods-XMExpandableTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMExpandableTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		69C259E5A0A6A349F94B6689AEC37FEE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		771746546B9F63B25B0B542534D54DAF /* Pods-XMExpandableTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMExpandableTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		80C4F5B9011B1CDD3FB8BEBED9225C67 /* XMExpandableTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XMExpandableTableView.modulemap; sourceTree = "<group>"; };
 		8A54AB042B037E1468E55B353B30F0B6 /* Pods-XMExpandableTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMExpandableTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -102,18 +102,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B2E65C06F1C29ED7FA52DF5C305FDF8 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				69C259E5A0A6A349F94B6689AEC37FEE /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		38C3945BAFF0ED74218F3093678284E2 /* XMExpandableTableView */ = {
 			isa = PBXGroup;
 			children = (
-				2B2E65C06F1C29ED7FA52DF5C305FDF8 /* Classes */,
+				E2D143C18FCF4F0E18CC553973EBC7AA /* Classes */,
 			);
 			path = XMExpandableTableView;
 			sourceTree = "<group>";
@@ -184,6 +176,14 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D143C18FCF4F0E18CC553973EBC7AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02F00DA7B8690BFF55BBD99383EF5A5A /* XMExpandableTableView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		EB82284EB09AE303239075BBB04D8BE7 /* Pods-XMExpandableTableView_Example */ = {
@@ -291,7 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30A39DB2DDF5C08B430155163B80952A /* Build configuration list for PBXNativeTarget "XMExpandableTableView" */;
 			buildPhases = (
-				25BF017F56F335F68BEA215A6CCF5240 /* Sources */,
+				3648989AF82113B2D5182E05259EB7E9 /* Sources */,
 				1B9F41A3207287C9B4582E60D121F905 /* Frameworks */,
 				99801824EDA83E98FA8DFC9C2C801F2B /* Headers */,
 			);
@@ -333,12 +333,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25BF017F56F335F68BEA215A6CCF5240 /* Sources */ = {
+		3648989AF82113B2D5182E05259EB7E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2064B4FAA0DDF5A005330E16482B8662 /* ReplaceMe.swift in Sources */,
-				3BABF50EDC5C4BE888C34BC8740D1D65 /* XMExpandableTableView-dummy.m in Sources */,
+				5ACB5454C57457ED2DA12331C07DE3FD /* XMExpandableTableView-dummy.m in Sources */,
+				51865D02FA624A9F1F36F1B49974C76A /* XMExpandableTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

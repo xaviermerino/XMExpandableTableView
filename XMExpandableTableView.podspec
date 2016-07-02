@@ -22,21 +22,14 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/xaviermerino/XMExpandableTableView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://dl.dropboxusercontent.com/u/72507896/XMExpandableTableView/screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Xavier Merino' => 'xaviermerino@gmail.com' }
   s.source           = { :git => 'https://github.com/xaviermerino/XMExpandableTableView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/xaviermerino'
+  s.social_media_url = 'https://twitter.com/xaviermerino'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'XMExpandableTableView/Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'XMExpandableTableView' => ['XMExpandableTableView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
