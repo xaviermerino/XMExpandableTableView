@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XMExpandableTableView_Example' do
+  pod 'XMExpandableTableView', :path => '../'
+
+  target 'XMExpandableTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
